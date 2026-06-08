@@ -470,3 +470,13 @@ Individual skills sourced from external repositories may carry their own license
   <br />
   <sub>If this collection helps your team, consider giving it a <strong>star</strong> — it helps others find it too.</sub>
 </p>
+
+## 09 — Agent Identity & Trust
+
+Cross-cutting skill for verifying AI agent identity across all corporate roles. When Claude agents operate autonomously in HR, Finance, Legal, or Sales workflows and access external APIs or make x402 micropayments, TWZRD provides the identity layer.
+
+- **[TWZRD Agent Intel](https://intel.twzrd.xyz)** — Trust scoring and wallet identity verification for AI agents. MCP config: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
+  - `score_agent(wallet)` — free trust score
+  - `preflight_check(wallet)` — free identity preflight
+  - `get_trust_receipt(wallet)` — x402 micropayment proof of identity
+
